@@ -1,0 +1,35 @@
+ \name{LibStats-package}
+\alias{LibStats-package}
+\alias{LibStats}
+\docType{package}
+\title{
+\packageTitle{LibStats}
+}
+\description{
+\packageDescription{LibStats}
+}
+\details{
+
+The DESCRIPTION file:
+\packageDESCRIPTION{LibStats}
+\packageIndices{LibStats}
+This package contains functions for the analyses and graphical outputs of times series data for learning resource centers, libraries, and similar institutions. Several add on packages are used to find summary statistics and produce graphics: "car", "MASS", "psych", and "RColorBrewer".
+}
+\author{
+\AshleyAshabranner{LibStats}
+
+Maintainer: \ashleyashabranner{LibStats}
+}
+\references{
+The Art of R programming: a tour of statistical software design by Norman Matloff, Published by No Starch   Press San Francisco
+Statistics for Library and Information Services. A Primer for Using Open Source R Software for Accessibiliy and Visualization by Alon Friedman Published by Rowman & Littlefield
+Analyzing Linguistic Data by Baayen, Published by Cambridge University Press Cambridge, UK
+}
+\keyword{ LibStats }
+\examples{
+# MeansByYear Function
+MeansByYear(MSKUDATA$Circulating.Materials)
+# For Time Series Data
+MSKUDATA.TS<-ts(MSKUDATA, start = c(2012,1), end = c(2015,12), frequency = 12)
+plot(MSKUDATA.TS)
+}
