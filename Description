@@ -1,0 +1,14 @@
+#Package: LibStats
+#Type: Package
+#Title: Analyses Data from collected Library Statistics
+#Version: 1.0
+#Date: 2016-04-24
+#Author: Ashley Ashabranner
+#Maintainer: ashabranner@health.usf.edu
+#Description: This package contains a fabricated time series data set from a fabricated university's academic library.
+#The data is composed of various library services and their user counts, as well as an overall enrollment count
+#of the university. The intention here is to show trends over time, compared to an overall user population. This package attempts
+#to portray the type of data that libraries collect and the methods by which to analyze it. Statistical methods used align with
+#methods found in the social sciences. The package is by no means all-inclusive, it is merely suggestive of the types of data that
+#are collected and how they function to inform information professionals.
+#License: GNU
